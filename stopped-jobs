@@ -4,6 +4,6 @@ exit
 [1]+ Stopped
 
 ```
-jg
+fg
 ```
 exit the stopped job. Done
