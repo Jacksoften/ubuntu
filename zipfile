@@ -1,0 +1,3 @@
+make zip file in ubuntu terminal
+
+zip -r zipfile.zip directory
