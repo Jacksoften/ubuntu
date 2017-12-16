@@ -1,5 +1,10 @@
 make zip file in ubuntu terminal
-
+```{terminal}
 zip -r zipfile.zip directory
 
 unzip target.tar destination_folder
+
+tar -xz tarfile.tar
+```
+
+
