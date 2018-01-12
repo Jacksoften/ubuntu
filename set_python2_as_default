@@ -1,1 +1,46 @@
+```
 alias python = "/usr/bin/python2.7"
+```
+
+# This method will not work after restarting terminal, Not a Good method.
+
+# update method
+put "alias python=python2" or "alias python = "/usr/bin/python2.7" into ~/.bash_profile
+
+
+
+# update method
+```{bash}
+vim ~/.bash_profile
+```
+Mine shows as
+```
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+# added by Anaconda2 5.0.1 installer
+export PATH="/Users/yunzheli/anaconda2/bin:$PATH"
+
+# added by Anaconda3 5.0.1 installer
+export PATH="/Users/yunzheli/anaconda3/bin:$PATH"
+
+```
+
+I notice the path of anaconda3 is exported later than the path of anaconda2
+Now, swich path of anaconda2 and path of anaconda3
+```
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+# added by Anaconda3 5.0.1 installer
+export PATH="/Users/yunzheli/anaconda3/bin:$PATH"
+
+# added by Anaconda2 5.0.1 installer
+export PATH="/Users/yunzheli/anaconda2/bin:$PATH"
+
+```
+It should work
