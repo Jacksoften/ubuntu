@@ -1,0 +1,6 @@
+source: https://www.shellscript.sh/philosophy.html
+
+the speed at which an interpreted program will run as compared to a C program, or even an interpreted Perl program.
+
+Since it is easy to write a simple batch-job type shell script, there are a lot of poor quality shell scripts around. 
+
