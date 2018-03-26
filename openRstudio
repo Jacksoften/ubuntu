@@ -1,0 +1,4 @@
+Open Rstudio from current folder
+```
+open -a Rstudio .
+```
