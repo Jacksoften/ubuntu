@@ -1,0 +1,5 @@
+```shell
+pdflatex filename
+```
+
+filename is the name before '.', it does not include any extension.

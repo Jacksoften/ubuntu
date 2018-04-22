@@ -5,6 +5,8 @@ zip -r zipfile.zip directory
 unzip target.tar destination_folder
 
 tar -xz tarfile.tar
+
+tar xopf tarfile.tar
 ```
 
 
