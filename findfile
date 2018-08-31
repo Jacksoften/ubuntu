@@ -1,0 +1,7 @@
+```shell
+# find file
+find . -name filename
+
+# change directory to the target file
+cd $(find . -name filename -exec dirname {} \;
+```

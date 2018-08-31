@@ -1,11 +1,11 @@
-##############
+## ubuntu version
+
 missing F77 compiler
 
 ```
 sudo apt-get install gfortran
 ```
 
-##############
 configure: error: --with-readline=yes (default) and headers/libs are not available
 
 ```
@@ -86,4 +86,11 @@ sudo apt install openjdk-8-jdk
 
 
 
+## MacOS version 
+## Configure R with all capabilities open. (used pkg file downloaded from R-cran 
+
+
+## Link old packages to new installed R
+
+`.libPaths()` returns the path of libraries
 
