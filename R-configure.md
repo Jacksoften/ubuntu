@@ -94,3 +94,4 @@ sudo apt install openjdk-8-jdk
 
 `.libPaths()` returns the path of libraries
 
+`update.packages(ask=FALSE) #I have not tested it yet`
